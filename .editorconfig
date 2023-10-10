@@ -1,0 +1,4 @@
+[*]
+cpp_new_line_before_else = false
+[*.{cpp,h,hlsl,hlsli}]
+charset = utf-8

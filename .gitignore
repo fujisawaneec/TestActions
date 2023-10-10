@@ -13,8 +13,7 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Mono auto generated files
-mono_crash.*
+# Mono auto generated filesmono_crash.*
 
 # Build results
 [Dd]ebug/
@@ -356,3 +355,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 DirectXGame/DirectXGame.exe
+DirectXGame/imgui.ini
+
+# DirectXTex Compiled Shaders
+**/DirectXTex/Shaders/Compiled/
