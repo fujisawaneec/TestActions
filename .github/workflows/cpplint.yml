@@ -8,4 +8,4 @@ jobs:
     - name: action-cpp-lint
       uses: CyberZHG/github-action-cpp-lint@0.0.2
       with:
-        args: --exclude=externals/*　--exclude=resources/* --recursive .
+        args: "--filter=-externals/* --recursive ."
