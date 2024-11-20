@@ -4,7 +4,7 @@ jobs:
   cpplint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@4
+    - uses: actions/checkout@v4
     - name: action-cpp-lint
       uses: CyberZHG/github-action-cpp-lint@0.0.2
       with:
